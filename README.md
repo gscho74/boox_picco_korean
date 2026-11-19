@@ -16,12 +16,12 @@ BOOX 기본 펌웨어에서는 한글 폰트를 추가하면 **책 본문은 정
 
 ## 다운로드
 
-**[PICCO_1.05_2959_v1_English_Status.bin 다운로드](https://github.com/gscho74/boox_picco_korean/raw/refs/heads/main/PICCO_1.05_2959_v1_English_Status.bin)**
+**[PICCO_1.05_2959_Korean_NanumGothic.bin 다운로드](https://github.com/gscho74/boox_picco_korean/raw/refs/heads/main/PICCO_1.05_2959_Korean_NanumGothic.bin)**
 
 | 항목 | 내용 |
 | --- | --- |
 | 대상 기기 | ONYX BOOX PICCO |
-| 배포 파일 | `PICCO_1.05_2959_v1_English_Status.bin` |
+| 배포 파일 | `PICCO_1.05_2959_Korean_NanumGothic.bin` |
 | 파일 내부 버전 | `1.0.5+2959` |
 | 파일 크기 | 9,258,096 bytes (약 8.83 MiB) |
 | 이미지 종류 | ESP32-S3 앱 펌웨어 이미지 |
@@ -48,7 +48,7 @@ PC에서 **[BOOX Tiles — Firmware Flash](https://www.booxtiles.com/firmware)**
 
 ### 3. 수정 펌웨어 선택
 
-`Drag firmware here` 영역에 이 저장소에서 받은 **`PICCO_1.05_2959_v1_English_Status.bin`**을 드래그하거나, 해당 영역을 눌러 파일을 선택합니다.
+`Drag firmware here` 영역에 이 저장소에서 받은 **`PICCO_1.05_2959_Korean_NanumGothic.bin`**을 드래그하거나, 해당 영역을 눌러 파일을 선택합니다.
 
 선택된 파일 이름이 위 이름과 같은지 확인하세요. 페이지의 공식 펌웨어 목록에서 다른 버전을 다운로드하면 이 저장소의 한글 수정 파일 대신 공식 파일을 설치하게 됩니다.
 
@@ -101,19 +101,19 @@ SHA-256:
 Windows PowerShell에서 다운로드 폴더로 이동한 뒤:
 
 ```powershell
-Get-FileHash .\PICCO_1.05_2959_v1_English_Status.bin -Algorithm SHA256
+Get-FileHash .\PICCO_1.05_2959_Korean_NanumGothic.bin -Algorithm SHA256
 ```
 
 Linux:
 
 ```sh
-sha256sum PICCO_1.05_2959_v1_English_Status.bin
+sha256sum PICCO_1.05_2959_Korean_NanumGothic.bin
 ```
 
 macOS:
 
 ```sh
-shasum -a 256 PICCO_1.05_2959_v1_English_Status.bin
+shasum -a 256 PICCO_1.05_2959_Korean_NanumGothic.bin
 ```
 
 출력값이 위 SHA-256과 같으면 배포 파일과 일치합니다. [SHA256SUMS](SHA256SUMS)도 함께 제공합니다.
